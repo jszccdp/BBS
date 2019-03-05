@@ -11,7 +11,9 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-
+from decouple import config
+from decouple import Csv
+import dj_database_url
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -20,12 +22,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'hk4a-wn_k#a)*kyd#_#0&9mhzfnm6_fuyz&e+6d+tx#5ybx_c0'
+#SECRET_KEY = 'hk4a-wn_k#a)*kyd#_#0&9mhzfnm6_fuyz&e+6d+tx#5ybx_c0'
+
+SECRET_KEY=config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG',default=False,cast=bool)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = config('ALLOWED_HOSTS',cast=Csv())
 
 
 # Application definition
@@ -48,7 +52,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.common.CommonMiddleware',
+    'django.middleware.common.CommoipionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -82,10 +86,9 @@ WSGI_APPLICATION = 'BBS.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+    'default':dj_database_url.config(
+        default=config('DATABASE_URL')
+    )
 }
 
 

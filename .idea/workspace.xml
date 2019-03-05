@@ -16,11 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BBS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+            <state relative-caret-position="151">
+              <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
+              <folding>
+                <element signature="e#304#313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="61" lean-forward="true" selection-start-column="61" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -79,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/reply_topic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="560">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -105,6 +126,9 @@
       <find>dispath</find>
       <find>post.me</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -139,7 +163,6 @@
         <option value="$PROJECT_DIR$/static/js/simplemde.min.js" />
         <option value="$PROJECT_DIR$/templates/edit_post.html" />
         <option value="$PROJECT_DIR$/boards/templatetags/gravatar.py" />
-        <option value="$PROJECT_DIR$/BBS/settings.py" />
         <option value="$PROJECT_DIR$/templates/topics.html" />
         <option value="$PROJECT_DIR$/templates/topic_posts.html" />
         <option value="$PROJECT_DIR$/templates/includes/pagination.html" />
@@ -147,20 +170,24 @@
         <option value="$PROJECT_DIR$/boards/models.py" />
         <option value="$PROJECT_DIR$/boards/views.py" />
         <option value="$PROJECT_DIR$/templates/reply_topic.html" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/BBS/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="283" />
-    <option name="y" value="39" />
+    <option name="x" value="398" />
+    <option name="y" value="227" />
     <option name="width" value="1277" />
-    <option name="height" value="788" />
+    <option name="height" value="730" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,7 +204,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +301,8 @@
       <workItem from="1551703487933" duration="953000" />
       <workItem from="1551704520733" duration="9395000" />
       <workItem from="1551747072871" duration="547000" />
-      <workItem from="1551747649446" duration="1294000" />
+      <workItem from="1551747649446" duration="2789000" />
+      <workItem from="1551767790947" duration="569000" />
     </task>
     <servers />
   </component>
@@ -297,12 +324,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95294000" />
+    <option name="totallyTimeSpent" value="97358000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="283" y="39" width="1277" height="788" extended-state="1" />
+    <frame x="911" y="155" width="1277" height="730" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2136401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15201315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -315,7 +343,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028759" side_tool="true" weight="0.43813682" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49800798" visible="true" weight="0.3816794" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49800798" visible="true" weight="0.33724833" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.15725191" />
       <window_info anchor="bottom" id="Run" order="12" sideWeight="0.49712408" weight="0.32824427" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -494,13 +522,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boards/models.py" />
     <entry file="file://$PROJECT_DIR$/boards/views.py" />
-    <entry file="file://$PROJECT_DIR$/BBS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -545,8 +566,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/reply_topic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <state relative-caret-position="560">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="61" lean-forward="true" selection-start-column="61" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BBS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="88" column="15" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
+          <folding>
+            <element signature="e#304#313#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
